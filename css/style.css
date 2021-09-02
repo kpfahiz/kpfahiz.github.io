@@ -181,6 +181,7 @@ a:active {
 
   section.resume-section .resume-item .resume-date {
       min-width: none;
+      height: 15px;
   }
 
   @media (min-width: 768px) {
