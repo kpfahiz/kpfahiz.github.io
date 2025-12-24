@@ -2,1059 +2,364 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fahiz KP | Senior Software Engineer & Entrepreneur</title>
 
-  <link rel="shortcut icon" href="">
-  <title>FAHIZ KP</title>
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Official portfolio of Fahiz KP, a Senior Software Engineer, Co-founder of Anqah group, and Founder of 'A Tiny Company'. Specialist in Python, NLP, AI/ML, and Cloud Engineering.">
+    <meta name="keywords"
+        content="Fahiz KP, Software Engineer, Python Developer, NLP Engineer, Data Engineer, Anqah group, A Tiny Company, Portfolio, Machine Learning, GCP, AWS">
+    <meta name="author" content="Fahiz KP">
 
-  <!-- Global stylesheets -->
-  <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900"
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"> 
-  <link href="css/devicons/css/devicons.min.css" rel="stylesheet">
-  <link href="css/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kpfahiz.github.io/">
+    <meta property="og:title" content="Fahiz KP | Senior Software Engineer & Entrepreneur">
+    <meta property="og:description"
+        content="Senior Software Engineer specializing in Python, AI, and Cloud. Co-founder of Anqah group.">
+    <meta property="og:image" content="./statics/img/profile/ZMdtgYOGqmqCDaF.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://kpfahiz.github.io/">
+    <meta property="twitter:title" content="Fahiz KP | Senior Software Engineer & Entrepreneur">
+    <meta property="twitter:description"
+        content="Senior Software Engineer specializing in Python, AI, and Cloud. Co-founder of Anqah group.">
+    <meta property="twitter:image" content="./statics/img/profile/ZMdtgYOGqmqCDaF.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Outfit:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./statics/styles/mystyle.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body id="page-top">
+<body>
+    <!-- Nav -->
+    <nav class="Nav" id="MyNav">
+        <a href="#Home" class="active">Home</a>
+        <a href="#About">About</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Experience">Experience</a>
+        <a href="#Certificates">Certificates</a>
+        <a href="#Portfolio">Portfolio</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none  mx-0 px-0"><img src="img/logo-white.png" alt="" class="img-fluid"></span>
-      <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded mx-auto mb-2" src="img/profile.jpg" alt="">
-      </span>
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Additional Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-        </li>
-        <li>
-          <a class="nav-link js-scroll-trigger" href="./Fahiz Kp_Resume.pdf" target=_blank>Resume</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
 
-  <div class="container-fluid p-0">
+    <!-- Home -->
+    <section id="Home" class="section-padding">
+        <div class="left split">
+            <h3 class="hi">Hi,</h3>
+            <h1 class="name">I'm Fahiz,</h1>
+            <div class="typed-out glow-text"
+                style="font-size: 2.5rem; width: auto; border-right: none; animation: none;">Software Engineer</div>
+            <div style="font-family: 'Outfit'; color: var(--text-secondary); margin-top: 10px; font-size: 1.2rem;">
+                Co-founder of <strong>Anqah group</strong> | Founder of <strong>'A Tiny Company'</strong>
+            </div>
 
-    <!--====================================================
-                        ABOUT
-    ======================================================-->
-    <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-      <div class="my-auto">
-        <!--img src="img/logo-s.png" class="img-fluid mb-3" alt=""-->
-        <h1 class="mb-0">FAHIZ <br>
-          <span class="text-primary">KP</span>
-        </h1>
-        <div class="subheading mb-5">
-          <!--a href="#">THEMSBIT</a-->
+            <div class="social-links" style="margin-top: 30px;">
+                <a href="https://www.linkedin.com/in/fahiz-kp-b9bb26159" target="_blank"><i
+                        class="fa fa-linkedin-square social"></i></a>
+                <a href="https://github.com/kpfahiz" target="_blank"><i class="fa fa-github social"></i></a>
+                <a href="mailto:fahizkppullara@gmail.com" target="_blank"><i class="fa fa-envelope social"></i></a>
+            </div>
         </div>
-        <p class="mb-5" style="max-width: 500px;">Self-motivated and hardworking fresher seeking for an opportunity to
-          work in a challenging environment to prove my skills and utilize my knowledge & intelligence in the growth of
-          the organization.</p>
-        <ul class="list-inline list-social-icons mb-0">
-          <li class="list-inline-item">
-            <a href="https://www.instagram.com/fahiz_kp/">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.tumblr.com/blog/infinitcoder">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-tumblr fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.linkedin.com/in/fahiz-kp-b9bb26159/">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://github.com/kpfahiz">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
+
+        <div class="right split">
+            <div class="img-overlay-wrap">
+                <svg class="bg1" viewBox="-60 -10 295 295">
+                    <title>Abstract background shapes</title>
+                    <path class="svg1" fill="var(--accent-color)"
+                        d="M37,-63.9C51.3,-55.9,68.3,-52.6,78.1,-42.7C87.8,-32.8,90.3,-16.4,90,-0.2C89.6,16,86.4,32,79.1,46.1C71.7,60.2,60.2,72.3,46.4,76.8C32.5,81.4,16.2,78.4,1.6,75.6C-13,72.8,-26,70.1,-37.5,64.3C-49.1,58.4,-59.2,49.2,-65.2,37.9C-71.3,26.7,-73.2,13.3,-74,-0.4C-74.7,-14.2,-74.2,-28.4,-68.9,-40.9C-63.6,-53.4,-53.5,-64.3,-41.2,-73.4C-28.9,-82.6,-14.5,-89.9,-1.5,-87.3C11.4,-84.6,22.8,-71.9,37,-63.9Z"
+                        transform="translate(100 100)" />
+                    <path class="svg2" fill="var(--blue-accent)"
+                        d="M43.1,-74.9C53.3,-68.9,57,-52,64.5,-37.7C71.9,-23.4,83.1,-11.7,83.9,0.4C84.6,12.6,74.9,25.1,64.3,33.9C53.7,42.8,42.1,47.8,31.2,56.1C20.4,64.4,10.2,75.8,-2.8,80.6C-15.7,85.4,-31.4,83.5,-42,75.1C-52.6,66.7,-58,51.7,-61.2,38C-64.5,24.4,-65.5,12.2,-66.2,-0.4C-67,-13.1,-67.4,-26.1,-61.6,-35.3C-55.8,-44.4,-43.7,-49.6,-32.4,-54.9C-21.1,-60.3,-10.5,-65.7,3,-70.9C16.5,-76,33,-80.9,43.1,-74.9Z"
+                        transform="translate(100 100)" />
+                </svg>
+                <img class="pro_pic" src="./statics/img/profile/ZMdtgYOGqmqCDaF.png"
+                    alt="Fahiz KP Professional Profile Photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="About" class="section-padding reveal">
+        <h3 class="hi_there">About Me</h3>
+        <p class="Intro">
+            I am a <strong>Senior Software Engineer</strong> and <strong>Tech Entrepreneur</strong> with a passion for
+            building intelligent, scalable systems. As the <strong>Co-founder of Anqah group</strong> and
+            <strong>Founder of 'A Tiny Company'</strong>,
+            I bridge the gap between complex engineering and strategic business growth.
+            My expertise spans the full data lifecycle—from architecting robust <strong>Core Python</strong> backends
+            to deploying <strong>NLP & Machine Learning</strong> models on <strong>GCP and AWS</strong>.
+            I specialize in transforming raw data into actionable intelligence through <strong>Data Engineering</strong>
+            and
+            high-performance web frameworks like <strong>Django and Flask</strong>.
+        </p>
+        <ul class="contacts">
+            <li class="glass">
+                <ul class="left">Location:
+                    <li class="content">Malappuram, Kerala, India</li>
+                </ul>
+            </li>
+            <li class="glass">
+                <ul class="left">Expertise:
+                    <li class="content">Backend Dev, Data Science, GCP</li>
+                </ul>
+            </li>
+            <li class="glass">
+                <ul class="left">Connect:
+                    <li class="content">7558935497<br>fahizkppullara@gmail.com</li>
+                </ul>
+            </li>
         </ul>
-      </div>
+        <a href="./statics/resume/fahiz_kp_resume.pdf" class="download_cv" target="_blank">
+            <i class="fa fa-download" style="margin-right: 10px;"></i> Download CV
+        </a>
     </section>
 
-    <!--====================================================
-                        EXPERIENCE
-    ======================================================-->
-    <section class="resume-section p-3 p-lg-5 " id="experience">
-      <div class="row my-auto">
-        <div class="col-12">
-          <h2 class="  text-center">Experience</h2>
-          <div class="mb-5 heading-border"></div>
+    <!-- Skills -->
+    <section id="Skills" class="section-padding reveal">
+        <h2 class="skills_h1">Technical Arsenal</h2>
+        <div class="grid-container">
+            <div class="grid-item glass" onclick="openModal('python')" style="cursor: pointer;">
+                <img src="./statics/img/icons/python.png" alt="Core Python Programming" class="skill_icon">
+                <p class="skill_txt">Core Python</p>
+            </div>
+            <div class="grid-item glass" onclick="openModal('datascience')" style="cursor: pointer;">
+                <img src="./statics/img/icons/data.png" alt="Natural Language Processing and Machine Learning"
+                    class="skill_icon">
+                <p class="skill_txt">NLP & ML</p>
+            </div>
+            <div class="grid-item glass" onclick="openModal('gcp')" style="cursor: pointer;">
+                <img src="./statics/img/icons/google.png" alt="Google Cloud Platform and AWS" class="skill_icon">
+                <p class="skill_txt">GCP & AWS</p>
+            </div>
+            <div class="grid-item glass" onclick="openModal('django')" style="cursor: pointer;">
+                <img src="./statics/img/icons/django.png" alt="Django and Flask Web Frameworks" class="skill_icon">
+                <p class="skill_txt">Django & Flask</p>
+            </div>
+            <div class="grid-item glass" onclick="openModal('sql')" style="cursor: pointer;">
+                <img src="./statics/img/icons/sql-server (1).png" alt="Data Engineering and SQL" class="skill_icon">
+                <p class="skill_txt">Data Engineering</p>
+            </div>
         </div>
-        <div class="resume-item col-md-6 col-sm-12">
-          <div class="card mx-0 p-4 mb-5" style="border-color: #ffc107; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
-            <div class="resume-content mr-auto">
-              <h4 class="mb-3"><i class="fa fa-laptop mr-3 text-warning"></i> Software Engineer</h4>
-              <h5>Links4engg India Private Limited | April 2021 - Present</h5>
-              <p>I am currently working as a Software Engineer at Links4Engg in Thiruvananthapuram</p>
+        <div id="python" class="modal">
+            <div class="modal-header">
+                <h2>Core Python</h2>
+                <span class="close-modal" data-close="python">&times;</span>
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary"></span>
+            <div class="modal-content glass">
+                <div class="model-body">
+                    <p>Expert in architecting high-performance, asynchronous systems using <strong>Core Python</strong>.
+                        My work focuses on writing clean, maintainable code for complex backend architectures,
+                        optimizing memory usage, and leveraging the full power of Python's standard library and
+                        scientific stack. I specialize in multi-threading, multiprocessing, and designing custom modules
+                        for high-frequency data processing.</p>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="resume-item col-md-6 col-sm-12 ">
-          <div class="card mx-0 p-4 mb-5" style="border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
-            <div class=" resume-content mr-auto">
-              <h4 class="mb-3"><i class="fas fa-laptop-code mr-3 text-info"></i> Full-Stack Web Developer</h4>
-              <h5>Zewia Software Solutions PVT LTD | May 2020 - April 2021</h5>
-              <p> I worked for one year as a Junior Full-Stack Developer at Zewia Software Solutions in Ernakulam.</p>
+        <div id="datascience" class="modal">
+            <div class="modal-header">
+                <h2>NLP & Machine Learning</h2>
+                <span class="close-modal" data-close="datascience">&times;</span>
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary"></span>
+            <div class="modal-content glass">
+                <div class="model-body">
+                    <p>Deep expertise in <strong>Natural Language Processing</strong> and <strong>Machine
+                            Learning</strong>. I build end-to-end AI solutions using transformer-based models (BERT,
+                        GPT), semantic search algorithms, and predictive analytics. My experience includes developing
+                        sophisticated NLP multi-agent systems, automated document parsing, and sentiment analysis
+                        engines with high accuracy for enterprise-scale data.</p>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="resume-item col-md-6 col-sm-12">
-          <div class="card mx-0 p-4 mb-5" style="border-color: #28a745; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
-            <div class="resume-content mr-auto">
-              <h4 class="mb-3"><i class="fa fa-cloud mr-3 text-success"></i> Internet of Things</h4>
-              <p>I developed Home automation with the help of Arduino for my college symposium,After that i would
-                upgraded Using Raspberry PI for voice command with the help of Alexa.</p>
+        <div id="django" class="modal">
+            <div class="modal-header">
+                <h2>Django & Flask</h2>
+                <span class="close-modal" data-close="django">&times;</span>
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary"></span>
+            <div class="modal-content glass">
+                <div class="model-body">
+                    <p>Specializing in <strong>Full-Stack Python Development</strong> using <strong>Django</strong> and
+                        <strong>Flask</strong>. I develop high-performance web applications, secure RESTful APIs, and
+                        real-time dashboards. My approach combines the robustness of Django's "batteries-included"
+                        philosophy with the flexibility of Flask for microservices, ensuring fast delivery without
+                        compromising on security or scalability.
+                    </p>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="resume-item col-md-6 col-sm-12">
-          <div class="card mx-0 p-4 mb-5" style="border-color: #2196f3; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
-            <div class="resume-content mr-auto">
-              <h4 class="mb-3"><i class="fa fa-globe mr-3 text-primary"></i> Network Security</h4>
-              <p>In my third year, I attended a weekly internship at the Advanced Computer Communication Network in RTTC
-                Mysore. This is a help to boost network security.</p>
+        <div id="gcp" class="modal">
+            <div class="modal-header">
+                <h2>Cloud Engineering</h2>
+                <span class="close-modal" data-close="gcp">&times;</span>
             </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary"></span>
+            <div class="modal-content glass">
+                <div class="model-body">
+                    <p>Architecture of complex <strong>Cloud Ecosystems</strong> on <strong>GCP and AWS</strong>. I
+                        specialize in designing highly available infrastructure, serverless deployments, and secure
+                        multi-cloud environments. My work ensures seamless scalability, cost-effectiveness, and robust
+                        security through IAM governance and automated CI/CD pipelines.</p>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+
+        <div id="sql" class="modal">
+            <div class="modal-header">
+                <h2>Data Engineering</h2>
+                <span class="close-modal" data-close="sql">&times;</span>
+            </div>
+            <div class="modal-content glass">
+                <div class="model-body">
+                    <p>Expertise in building scalable <strong>Data Pipelines</strong> and ETL/ELT workflows. I
+                        specialize in SQL optimization, big data processing with Spark, and orchestration using Airflow.
+                        My work ensures data flows seamlessly through complex ecosystems, maintaining high integrity and
+                        providing the foundation for advanced analytics and reporting.</p>
+                </div>
+            </div>
+        </div>
+
     </section>
 
-    <!--====================================================
-                        PORTFOLIO
-    ======================================================-->
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
-      <div class="row my-auto">
-        <div class="col-12">
-          <h2 class="  text-center">Portfolio</h2>
-          <div class="mb-5 heading-border"></div>
-        </div>
-        <div class="col-md-12">
-          <div class="port-head-cont">
-            <button class="btn btn-general btn-green filter-b" data-filter="all">All</button>
-            <button class="btn btn-general btn-green filter-b" data-filter="iot">Internet of Things</button>
-            <button class="btn btn-general btn-green filter-b" data-filter="mobileapps">Mobile Apps</button>
-            <button class="btn btn-general btn-green filter-b" data-filter="website">Websites</button>
-          </div>
-        </div>
-      </div>
-      <div class="row my-auto">
-        <div class="col-sm-4 portfolio-item filter mobileapps">
-          <a class="portfolio-link" href="#portfolioModal4" data-toggle="modal">
-            <div class="caption-port">
-              <div class="caption-port-content">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
+    <!-- Experience -->
+    <section id="Experience" class="section-padding reveal">
+        <h2 class="section_h2">Professional Journey</h2>
+        <div class="journey-grid">
+            <div class="journey-item glass">
+                <h3>Senior Software Engineer</h3>
+                <p class="company">Quest Global | July 2024 - Present</p>
+                <p class="location">Trivandrum, Kerala</p>
             </div>
-            <img class="img-fluid" src="img/portfolio/p-4.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-sm-4 portfolio-item filter marketing">
-          <a class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
-            <div class="caption-port">
-              <div class="caption-port-content">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
+            <div class="journey-item glass">
+                <h3>Senior System Engineer</h3>
+                <p class="company">Infosys Pvt Ltd | Mar 2022 - July 2024</p>
+                <p class="location">Trivandrum, Kerala</p>
             </div>
-            <img class="img-fluid" src="img/portfolio/p-5.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-sm-4 portfolio-item filter iot">
-          <a class="portfolio-link" href="#portfolioModal6" data-toggle="modal">
-            <div class="caption-port">
-              <div class="caption-port-content">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
+            <div class="journey-item glass">
+                <h3>Software Engineer</h3>
+                <p class="company">Links4Engg Pvt Ltd | Apr 2021 - Mar 2022</p>
+                <p class="location">Trivandrum, Kerala</p>
             </div>
-            <img class="img-fluid" src="img/portfolio/p-6.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-sm-4 portfolio-item filter iot">
-          <a class="portfolio-link" href="#portfolioModal7" data-toggle="modal">
-            <div class="caption-port">
-              <div class="caption-port-content">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
+            <div class="journey-item glass">
+                <h3>Junior Software Engineer</h3>
+                <p class="company">Zewia Software Solutions | May 2020 - Apr 2021</p>
+                <p class="location">Ernakulam, Kerala</p>
             </div>
-            <img class="img-fluid" src="img/portfolio/p-7.jpg" alt="">
-          </a>
         </div>
-        <div class="col-sm-4 portfolio-item filter iot">
-          <a class="portfolio-link" href="#portfolioModal8" data-toggle="modal">
-            <div class="caption-port">
-              <div class="caption-port-content">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/p-8.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-sm-4 portfolio-item filter website">
-          <a class="portfolio-link" href="#portfolioModal9" data-toggle="modal">
-            <div class="caption-port">
-              <div class="caption-port-content">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/p-9.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-sm-4 portfolio-item filter website">
-          <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
-            <div class="caption-port">
-              <div class="caption-port-content">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/plantbid.png" alt="">
-          </a>
-        </div>
-        <div class="col-sm-4 portfolio-item filter marketing">
-          <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
-            <div class="caption-port">
-              <div class="caption-port-content">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/p-2.jpg" alt="">
-          </a>
-        </div>
-        <div class="col-sm-4 portfolio-item filter iot">
-          <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
-            <div class="caption-port">
-              <div class="caption-port-content">
-                <i class="fa fa-search-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/p-3.jpg" alt="">
-          </a>
-        </div>
-      </div>
     </section>
 
-    <!--====================================================
-                        SKILLS
-    ======================================================-->
-    <section class=" d-flex flex-column" id="skills">
-      <div class="p-lg-5 p-3 skill-cover">
-        <h3 class="text-center text-white">Coding Skills</h3>
-        <div class="row text-center my-auto ">
-          <div class="col-md-3 col-sm-6">
-            <div class="skill-item">
-              <i class="fab fa-angular fa-5x"></i>
-              <h2><span class="counter"> 40 </span><span>%</span></h2>
-              <p>ANGULAR</p>
+    <!-- Certificates -->
+    <section id="Certificates" class="section-padding reveal">
+        <h1>Certifications</h1>
+        <div class="grid-container" style="margin-top: 40px;">
+            <div class="grid-item glass">
+                <i class="fa fa-certificate" style="font-size: 40px; color: var(--accent-color);"></i>
+                <p class="skill_txt" style="margin-top: 10px;">Google Cloud Professional Data Engineer</p>
             </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="skill-item">
-              <i class="fab fa-node fa-5x"></i>
-              <h2><span class="counter"> 60 </span><span>%</span></h2>
-              <p>NODE JS</p>
+            <div class="grid-item glass">
+                <i class="fa fa-certificate" style="font-size: 40px; color: var(--accent-color);"></i>
+                <p class="skill_txt" style="margin-top: 10px;">AWS Certified Solutions Architect</p>
             </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="skill-item">
-              <i class="fab fa-python fa-5x"></i>
-              <h2><span class="counter"> 90 </span><span>%</span></h2>
-              <p>PYTHON</p>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="skill-item">
-              <i class="fab fa-dyalog fa-5x"></i>
-              <h2><span class="counter">80</span><span>%</span></h2>
-              <p>DJANGO</p>
-            </div>
-          </div>
         </div>
-      </div>
     </section>
 
-    <!--====================================================
-                           ADDITIONAL SKILLS
-    ======================================================-->
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
-      <div class="row my-auto">
-        <div class="col-12">
-          <h2 class="  text-center">Additional Skills</h2>
-          <div class="mb-5 heading-border"></div>
+    <!-- portfolio -->
+    <section id="Portfolio" class="section-padding reveal">
+        <h1>Selected Works</h1>
+        <div class="grid-container" style="margin-top: 40px;">
+            <div class="portfolio-item glass" style="padding: 20px; text-align: left;">
+                <h3 style="color: var(--accent-color); margin-bottom: 10px;">Cloud ETL Orchestrator</h3>
+                <p style="font-size: 0.9rem; color: var(--text-secondary);">A robust ETL pipeline orchestrator built
+                    with Airflow and GCP, processing 1TB+ data monthly.</p>
+                <div style="margin-top: 15px;">
+                    <span
+                        style="font-size: 0.8rem; background: rgba(255,255,255,0.1); padding: 4px 10px; border-radius: 10px;">Python</span>
+                    <span
+                        style="font-size: 0.8rem; background: rgba(255,255,255,0.1); padding: 4px 10px; border-radius: 10px;">GCP</span>
+                </div>
+            </div>
+            <div class="portfolio-item glass" style="padding: 20px; text-align: left;">
+                <h3 style="color: var(--accent-color); margin-bottom: 10px;">Predictive Analytics Dashboard</h3>
+                <p style="font-size: 0.9rem; color: var(--text-secondary);">Interactive Streamlit dashboard visualizing
+                    stock market trends using LSTM neural networks.</p>
+                <div style="margin-top: 15px;">
+                    <span
+                        style="font-size: 0.8rem; background: rgba(255,255,255,0.1); padding: 4px 10px; border-radius: 10px;">TensorFlow</span>
+                    <span
+                        style="font-size: 0.8rem; background: rgba(255,255,255,0.1); padding: 4px 10px; border-radius: 10px;">Python</span>
+                </div>
+            </div>
         </div>
-        <div class="main-award" id="award-box">
-          <div class="award">
-            <div class="award-icon"></div>
-            <div class="award-content">
-              <span class="date">Jul 20, 2020 - Oct 10, 2020</span>
-              <h5 class="title">Data Science and Machine Learning-Python.</h5>
-              <p class="description">
-                I have done a UDEMY online course on "Python-Introduction to Data Science and Machine learning A-Z" .<a
-                  href="./certificates/Python-Introduction to Data Science and Machine learning A-Z.jpg" target=_blank>Certificate</a></p>
-            </div>
-          </div>
-          <div class="award">
-            <div class="award-icon"></div>
-            <div class="award-content">
-              <span class="date">Aug 01, 2020 - Oct 03, 2020</span>
-              <h5 class="title">Web Development Using Python and Django Framework.</h5>
-              <p class="description">
-                I have done a UDEMY online course on "Python And Django Framework For Beginners Complete Course" .<a
-                  href="./certificates/Python And Django Framework For Beginners Complete Course.jpg" target=_blank>Certificate</a></p>
-            </div>
-          </div>
-          <div class="award">
-            <div class="award-icon"></div>
-            <div class="award-content">
-              <span class="date">Jun 08, 2020 - Aug 24, 2020</span>
-              <h5 class="title">Become A Full Stack Web Developer - PHP(laravel) & REACT.JS</h5>
-              <p class="description">
-                I have done a UDEMY online course on "Become A Full Stack Web Developer - Beginner To Advanced" .<a
-                  href="./certificates/Become A Full Stack Web Developer - Beginner To Advanced.jpg" target=_blank>Certificate</a></p>
-            </div>
-          </div>
-          <div class="award">
-            <div class="award-icon"></div>
-            <div class="award-content">
-              <span class="date">May 08, 2020 - Jun 26, 2020</span>
-              <h5 class="title">UDEMY COURSE FOR ETHICAL HACKING</h5>
-              <p class="description">
-                I have done a UDEMY online course on "COMPLETE ETHICAL HACKING FROM SCRATCH" .<a
-                  href="./certificates/Learn Ethical Hacking From Scratch - Zaid Sabih.jpg" target=_blank>Certificate
-                  from Udemy</a>,<a
-                  href="./certificates/Learn Ethical Hacking From Scratch - Zaid Sabih - ZSecurity.png"
-                  target=_blank>Certificate from ZSecurity</a></p>
-            </div>
-          </div>
-          <div class="award">
-            <div class="award-icon"></div>
-            <div class="award-content">
-              <span class="date">May 01, 2020 - May 08, 2020</span>
-              <h5 class="title">UDEMY COURSE FOR PRACTICAL ETHICAL HACKING</h5>
-              <p class="description">
-                I have done a UDEMY online course on "Practical Ethical Hacking " .<a
-                  href="./certificates/Practical Ethical Hacking by Heath Adams.jpg" target=_blank>Certificate</a></p>
-            </div>
-          </div>
-          <div class="award">
-            <div class="award-icon"></div>
-            <div class="award-content">
-              <span class="date">Jul 2017 - Oct 2017</span>
-              <h5 class="title">NPTEL COURSE FOR IoT</h5>
-              <p class="description">
-                I have done a NPTEL online course on "Internet of Things" .<a
-                  href="./certificates/NPTEL17CS22S1700105171011795.jpg" target=_blank>Certificate</a>
-
-              </p>
-            </div>
-          </div>
-          <div class="award">
-            <div class="award-icon"></div>
-            <div class="award-content">
-              <span class="date">Apr 21 2017</span>
-              <h5 class="title">Building Intelligent Cross-Platform Mobile Applications Using Xamarin and Azure Search
-              </h5>
-              <p class="description">
-                I have completed a Microsoft Virtual Academy course on "Building Intelligent Cross-Platform Mobile
-                Applications Using Xamarin and Azure Search".<a href="./certificates/Certificate (1).pdf"
-                  target=_blank>Certificate</a>
-              </p>
-            </div>
-          </div>
-          <div class="award">
-            <div class="award-icon"></div>
-            <div class="award-content">
-              <span class="date">Jul 20 2017</span>
-              <h5 class="title">Mastering Azure App Service, Part 4: Building Azure Mobile Apps</h5>
-              <p class="description">
-                I have done Microsoft Virtual Academy course on "Mastering Azure App Service, Part 4: Building Azure
-                Mobile Apps".
-                <a href="./certificates/Certificate(2).pdf" target=_blank>Certificate</a>
-              </p>
-            </div>
-          </div>
-          <div class="award">
-            <div class="award-icon"></div>
-            <div class="award-content">
-              <span class="date">Jul 20 2017</span>
-              <h5 class="title">C# Fundamentals for Absolute Beginners</h5>
-              <p class="description">
-                I have completed a Microsoft Virtual Academy course on "C# Fundamentals for Absolute Beginners".
-                <a href="./certificates/Certificate(3).pdf" target=_blank>Certificate</a>
-              </p>
-            </div>
-          </div>
-
-        </div>
-      </div>
     </section>
 
-    <!--====================================================
-                          CONTACT
-    ======================================================-->
-    <section class="resume-section p-3 p-lg-5 d-flex flex-column">
-      <div class="row my-auto" id="contact">
-        <div class="col-md-8">
-          <div class="contact-cont">
-            <h3>CONTACT Us</h3>
-            <div class="heading-border-light"></div>
-            <p></p>
-          </div>
-          <div class="row con-form">
-            <div class="col-md-12">
-              <input type="text" name="full-name" placeholder="Full Name" class="form-control">
-            </div>
-            <div class="col-md-12">
-              <input type="text" name="email" placeholder="Email Id" class="form-control">
-            </div>
-            <div class="col-md-12">
-              <input type="text" name="subject" placeholder="Subject" class="form-control">
-            </div>
-            <div class="col-md-12"><textarea name="" id=""></textarea></div>
-            <div class="col-md-12 sub-but"><button class="btn btn-general btn-white" role="button">Send</button></div>
-          </div>
+    <!-- Contact -->
+    <section id="Contact" class="section-padding reveal" style="flex-direction: column;">
+        <h1>Get In Touch</h1>
+        <div class="glass" style="width: 100%; max-width: 600px; padding: 40px; margin-top: 40px;">
+            <form action="#" style="display: flex; flex-direction: column; gap: 20px;">
+                <div style="display: flex; flex-direction: column; gap: 8px;">
+                    <label style="font-family: 'Outfit'; font-weight: 500;">Name</label>
+                    <input type="text" placeholder="Your Name"
+                        style="padding: 12px; background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); border-radius: 8px; color: white;">
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 8px;">
+                    <label style="font-family: 'Outfit'; font-weight: 500;">Email</label>
+                    <input type="email" placeholder="fahiz@example.com"
+                        style="padding: 12px; background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); border-radius: 8px; color: white;">
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 8px;">
+                    <label style="font-family: 'Outfit'; font-weight: 500;">Message</label>
+                    <textarea placeholder="Tell me about your project..." rows="5"
+                        style="padding: 12px; background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); border-radius: 8px; color: white;"></textarea>
+                </div>
+                <button type="submit" class="download_cv" style="border: none; cursor: pointer; width: 100%;">Send
+                    Message</button>
+            </form>
         </div>
-        <div class="col-md-4 col-sm-12 mt-5">
-          <div class="contact-cont2">
-            <div class="contact-add contact-box-desc">
-              <h3><i class="fa fa-map-marker cl-atlantis fa-2x"></i> Address</h3>
-              <p>Kondotti Paramban(H), Pullara, Malappuram <br>
-                Kerala, India <br></p>
-            </div>
-            <div class="contact-phone contact-side-desc contact-box-desc">
-              <h3><i class="fa fa-phone cl-atlantis fa-2x"></i> Phone</h3>
-              <p>755 893 5497 <br></p>
-            </div>
-            <div class="contact-mail contact-side-desc contact-box-desc">
-              <h3><i class="fa fa-envelope-o cl-atlantis fa-2x"></i> Email</h3>
-              <address class="address-details-f">
-                <br>
-                Email: <a href="mailto:fahizkppullara@gmail.com" class="">fahizkppullara@gmail.com</a>
-              </address>
-              <ul class="list-inline social-icon-f top-data">
-                <li><a href="https://www.instagram.com/fahiz_kp/" target="_empty"><i class="fab top-social fa-instagram"
-                      style="color: #4267b2; border-color:#4267b2;"></i></a></li>
-                <li><a href="https://www.reddit.com/user/INFINIT_CODER" target="_empty"><i
-                      class="fab top-social fa-reddit" style="color: #4AB3F4; border-color:#4AB3F4;"></i></a></li>
-                <li><a href="https://www.tumblr.com/blog/infinitcoder" target="_empty"><i
-                      class="fab top-social fa-tumblr" style="color: #e24343; border-color:#e24343;"></i></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
 
-    <section class=" d-flex flex-column" id="maps">
-      <div id="map">
-        <div class="map-responsive">
-          <iframe
-            src="https://www.google.co.in/maps/place/Malappuram,+Kerala/@11.0619439,76.0332862,13z/data=!3m1!4b1!4m5!3m4!1s0x3ba64a9be29b058f:0x23e371e0d4c30d8e!8m2!3d11.0509762!4d76.0710967"
-            width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </section>
+    <!-- Scripts -->
+    <script>
+        // Intersection Observer for reveal animations
+        const revealCallback = (entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    observer.unobserve(entry.target);
+                }
+            });
+        };
 
+        const revealObserver = new IntersectionObserver(revealCallback, {
+            threshold: 0.1
+        });
 
-  </div>
+        document.querySelectorAll('.reveal').forEach(el => {
+            revealObserver.observe(el);
+        });
 
-  <!--====================================================
-                    PORTFOLIO MODALS
-======================================================-->
-  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="modal-body">
-              <div class="title-bar">
-                <div class="col-md-12">
-                  <h2 class="text-center">Our Project</h2>
-                  <div class="heading-border"></div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <img class="img-fluid img-centered" src="img/portfolio/plantbid.png" alt="">
-                </div>
-                <div class="col-md-6">
-                  <p> Plantbid is the only horticulture platform that lets you source your whole plant list at one time, from growers who provide their complete availabilities. We have you covered – whether you shop for yourself, use RFP or broker your plants.</p>
-                  <ul class="list-inline item-details">
-                    <li>Client:
-                      <strong>
-                        <a href="https://plantbid.com/">Plantbid</a>
-                      </strong>
-                    </li>
-                    <li>Date:
-                      <strong>
-                        <a href="#">April 2021</a>
-                      </strong>
-                    </li>
-                    <li>Service:
-                      <strong>
-                        <a href="#">Web Development</a>
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i> Close
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="modal-body">
-              <div class="title-bar">
-                <div class="col-md-12">
-                  <h2 class="text-center">Our Project</h2>
-                  <div class="heading-border"></div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <img class="img-fluid img-centered" src="img/portfolio/p-2.jpg" alt="">
-                </div>
-                <div class="col-md-6">
-                  <p>Our new Project every processes had become fragmented; meaning quality and service were
-                    inconsistent. This lack of standardization was adversely impacting operating costs, productivity and
-                    customer satisfaction. For several years now Payfast has worked strategically with innovations as a
-                    means of developing new solutions, products and services. In line with this vision, Success was
-                    approached to find new payments solutions to offer Payfast customers on their website, including
-                    open invoice and partial payments options.</p>
-                  <ul class="list-inline item-details">
-                    <li>Client:
-                      <strong>
-                        <a href="#">Techs Soft</a>
-                      </strong>
-                    </li>
-                    <li>Date:
-                      <strong>
-                        <a href="#">April 2018</a>
-                      </strong>
-                    </li>
-                    <li>Service:
-                      <strong>
-                        <a href="#">Web Development</a>
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i> Close
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Intelligent Automation -->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="modal-body">
-              <div class="title-bar">
-                <div class="col-md-12">
-                  <h2 class="text-center">Our Project</h2>
-                  <div class="heading-border"></div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <img class="img-fluid img-centered" src="img/portfolio/p-3.jpg" alt="">
-                </div>
-                <div class="col-md-6">
-                  <p>With the rapid development of society, solutions to reduce energy consumption in the world have
-                    also gained attention, especially electrical energy.
-                    In this project,a system that can control light on and off by determining the position of the person
-                    is being developed in order to reduce the waste of electricity used in public buildings.
-                    In the age of automation, the ability to navigate persons and devices in indoor environments has
-                    become increasingly important for a rising number of applications.
-                    The proposed framework covers multiple types of information.
-                    In addition,we systematically discuss the problems and solutions of each unit according to the frame
-                    structure to identify research directions for the development of smart intelligence system.
-                    Raspberry PI,camera module and relay is used as a part of hardware requirements.</p>
-                  <ul class="list-inline item-details">
-                    <li>Client:
-                      <strong>
-                        <a href="#">Final Year Project</a>
-                      </strong>
-                    </li>
-                    <li>Date:
-                      <strong>
-                        <a href="#">April 2020</a>
-                      </strong>
-                    </li>
-                    <li>Service:
-                      <strong>
-                        <a href="#">IoT and AI</a>
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i> Close
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Fast Delivery -->
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="modal-body">
-              <div class="title-bar">
-                <div class="col-md-12">
-                  <h2 class="text-center">Our Project</h2>
-                  <div class="heading-border"></div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <img class="img-fluid img-centered" src="img/portfolio/p-4.jpg" alt="">
-                </div>
-                <div class="col-md-6">
-                  <p>Current system for delivery of products is a paper-based system,
-                    though some of the companies use different methods.
-                    We came to an understanding of the problems faced by them.
-                    In the existing system a list of addresses will be given to the delivery boys and they have to use
-                    google map in order to find the directions to the destined location.
-                    This is a time-consuming method. Our application is proposed in order to bring a change to this
-                    situation.
-                    Fast Finder application is created in such a way that the delivery boys can simply list out the
-                    addresses and the application connect it to google map via GPS in order to find the and sort the
-                    addresses according to the shortest distance.
-                    Sorting is done using Travelling Salesman Problem.</p>
-                  <ul class="list-inline item-details">
-                    <li>Client:
-                      <strong>
-                        <a href="#">College Miniproject</a>
-                      </strong>
-                    </li>
-                    <li>Date:
-                      <strong>
-                        <a href="#">October 2019</a>
-                      </strong>
-                    </li>
-                    <li>Service:
-                      <strong>
-                        <a href="#">Android Application</a>
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i> Close
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Penetration Test -->
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="modal-body">
-              <div class="title-bar">
-                <div class="col-md-12">
-                  <h2 class="text-center">Our Project</h2>
-                  <div class="heading-border"></div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <img class="img-fluid img-centered" src="img/portfolio/p-5.jpg" alt="">
-                </div>
-                <div class="col-md-6">
-                  <p>Penetration testing, also called pen testing or ethical hacking,
-                    is the practice of testing a computer system, network or web application to find security
-                    vulnerabilities that an attacker could exploit.
-                    Penetration testing can be automated with software applications or performed manually.</p>
-                  <ul class="list-inline item-details">
-                    <!--<li>Client:
-                      <strong>
-                        <a href="#">Techs Soft</a>
-                      </strong>
-                    </li>-->
-                    <li>Date:
-                      <strong>
-                        <a href="#">April 2020</a>
-                      </strong>
-                    </li>
-                    <li>Service:
-                      <strong>
-                        <a href="#">Penetration Test</a>
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i> Close
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Home Automation -->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="modal-body">
-              <div class="title-bar">
-                <div class="col-md-12">
-                  <h2 class="text-center">Our Project</h2>
-                  <div class="heading-border"></div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <img class="img-fluid img-centered" src="img/portfolio/p-6.jpg" alt="">
-                </div>
-                <div class="col-md-6">
-
-                  <p>I created this project for a symposium held at our college. This project based on home automation.
-                    The project was created using the Arduino Uno as a microcontroller and the Bluetooth module can be
-                    used to connect to a mobile phone.The mobile app was created with the help of MIT App Inventor.</p>
-                  <ul class="list-inline item-details">
-                    <li>More:
-                      <strong>
-                        <a href="https://infinitcoder.blogspot.com/2018/03/home-automation-ihome.html">INFINIT CODER</a>
-                      </strong>
-                    </li>
-                    <li>Date:
-                      <strong>
-                        <a href="#">April 2017</a>
-                      </strong>
-                    </li>
-                    <li>Service:
-                      <strong>
-                        <a href="#">IoT</a>
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i> Close
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- UV Aruino -->
-  <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="modal-body">
-              <div class="title-bar">
-                <div class="col-md-12">
-                  <h2 class="text-center">Our Project</h2>
-                  <div class="heading-border"></div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-
-                  <img class="img-fluid img-centered" src="img/portfolio/p-7.jpg" alt="">
-                </div>
-                <div class="col-md-6">
-                  <p>For the blind, this is a small project for digital blind stick assistance. That was on my second
-                    year project..</p>
-                  <ul class="list-inline item-details">
-                    <li>More:
-                      <strong>
-                        <a href="https://infinitcoder.blogspot.com/2018/01/sonar-sensor-working-with-arduino-uno.html">INFINIT
-                          CODER</a>
-                      </strong>
-                    </li>
-                    <li>Date:
-                      <strong>
-                        <a href="#">June 2017</a>
-                      </strong>
-                    </li>
-                    <li>Service:
-                      <strong>
-                        <a href="#">IoT</a>
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i> Close
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Alexa with Raspberry PI-->
-  <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="modal-body">
-              <div class="title-bar">
-                <div class="col-md-12">
-                  <h2 class="text-center">Our Project</h2>
-                  <div class="heading-border"></div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <img class="img-fluid img-centered" src="img/portfolio/p-8.jpg" alt="">
-                </div>
-                <div class="col-md-6">
-
-                  <p>My first experience with Raspberry Pi. This was done for Alexa for voice command response. It was a
-                    three day workshop based on Alexa conducted at Government College, Kannur.</p>
-                  <ul class="list-inline item-details">
-                    <li>Certificate:
-                      <strong>
-                        <a href="./certificates/XPLR5c6845d909685.pdf">Certificate</a>
-                      </strong>
-                    </li>
-                    <li>Date:
-                      <strong>
-                        <a href="#">February 2019</a>
-                      </strong>
-                    </li>
-                    <li>Service:
-                      <strong>
-                        <a href="#">Cloud Computing</a>
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i> Close
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- StarCakes_Blog -->
-  <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="modal-body">
-              <div class="title-bar">
-                <div class="col-md-12">
-                  <h2 class="text-center">Our Project</h2>
-                  <div class="heading-border"></div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-6">
-                  <img class="img-fluid img-centered" src="img/portfolio/p-9.jpg" alt="">
-                </div>
-                <div class="col-md-6">
-                  <p>This is Blog for food it developed using Django framework and several libraries such as allauth,
-                    Crispyform , TinyMCE .</p>
-                  <ul class="list-inline item-details">
-                    <li>More:
-                      <strong>
-                        <a href="https://github.com/kpfahiz">Github</a>
-                      </strong>
-                    </li>
-                    <li>Date:
-                      <strong>
-                        <a href="#">Oct 2020</a>
-                      </strong>
-                    </li>
-                    <li>Service:
-                      <strong>
-                        <a href="#">Web Development</a>
-                      </strong>
-                    </li>
-                  </ul>
-                  <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                    <i class="fa fa-times"></i> Close
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!-- Global javascript -->
-  <script src="js/jquery/jquery.min.js"></script>
-  <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
-  <script src="js/jquery-easing/jquery.easing.min.js"></script>
-  <script src="js/counter/jquery.waypoints.min.js"></script>
-  <script src="js/counter/jquery.counterup.min.js"></script>
-  <script src="js/custom.js"></script>
-  <script>
-    $(document).ready(function () {
-
-      $(".filter-b").click(function () {
-        var value = $(this).attr('data-filter');
-        if (value == "all") {
-          $('.filter').show('1000');
+        // Mobile Nav Toggle
+        function myFunction() {
+            var x = document.getElementById("MyNav");
+            var body = document.body;
+            if (x.className === "Nav") {
+                x.className += " responsive";
+                body.classList.add("no-scroll");
+            } else {
+                x.className = "Nav";
+                body.classList.remove("no-scroll");
+            }
         }
-        else {
-          $(".filter").not('.' + value).hide('3000');
-          $('.filter').filter('.' + value).show('3000');
-        }
-      });
-
-      if ($(".filter-b").removeClass("active")) {
-        $(this).removeClass("active");
-      }
-      $(this).addClass("active");
-    });
-
-    // SKILLS
-    $(function () {
-      $('.counter').counterUp({
-        delay: 10,
-        time: 2000
-      });
-
-    });
-  </script>
+    </script>
+    <script src="./statics/scripts/scripts.js"></script>
 </body>
 
 </html>
